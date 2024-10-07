@@ -36,6 +36,9 @@ ___
 
 + Protótipo de Alta Fidelidade no [Figma](https://www.figma.com/community/file/1138814493269096792)
 
+### Recurso "Componente: Summary"
+
++ `npm i phosphor-react`: Biblioteca de ícones.
 
 
 
