@@ -8,7 +8,7 @@ ___
 ## Conteúdo Programático do Módulo 1
 
 <details style="font-size: 16px">
-<summary><strong style="font-size: 18px">1. Fundamentos do Nest</strong></summary>
+<summary><strong style="font-size: 18px">1. Estrutura visual</strong></summary>
 
   ---
 
@@ -23,16 +23,21 @@ ___
 
 ## Principais comandos:
 
-### Aula "Criação do Projeto"
+### Aula "Setup do Projeto"
 
 + `npm create vite@latest`: Cria o projeto Vite.
   > **_OBS:_** Aqui você pode encontrar a documentação do [Vite](https://vitejs.dev/guide/)
 + `npm i`: Instala as dependências para rodar o projeto.
 + `npm run dev`: Roda o projeto na porta configurada no arquivo vite.config.js. Nesse projeto está na localhost:3001.
++ `npm i styled-componentes`: Biblioteca que permite trabalhar com estilos usando componentes.
++ `npm i @types/styled-components -D`: Tipagem da biblioteca styled-components.
 
 ### Recurso "Figma"
 
 + Protótipo de Alta Fidelidade no [Figma](https://www.figma.com/community/file/1138814493269096792)
+
+
+
 
 ## Autoria e Créditos:
 
