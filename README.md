@@ -36,11 +36,11 @@ ___
 
 + Protótipo de Alta Fidelidade no [Figma](https://www.figma.com/community/file/1138814493269096792)
 
-### Recurso "Componente: Summary"
+### Aula "Componente: Summary"
 
 + `npm i phosphor-react`: Biblioteca de ícones.
 
-### Recurso "Criando um modal acessível"
+### Aula "Criando um modal acessível"
 
 + Aria: Regras de [Acessibilidade](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
 + AriaKit: Biblioteca de acessibilidade [Ariakit](https://github.com/ariakit/ariakit)
@@ -50,9 +50,20 @@ ___
 
 + `npm install @radix-ui/react-dialog`: Instala o modal (dialog) do radix.
 
-### Recurso "Criando radio button acessível"
+### Aula "Criando radio button acessível"
 
 + `npm install @radix-ui/react-radio-group`: Instala o radio button do radix.
+
+### Aula "Configurando JSON Server"
+
++ `npm i json-server -D`: Permite criar uma API através de um arquivo JSON.
++ `npx json-server server.json`: Sobe um servidor local através do arquivo server.json
+  > **_OBS1:_** Executar após criar um arquivo `server.json` na pasta raíz do projeto.
+  > **_OBS2:_** O parâmetro `-p 3333` sobe o servidor na porta 3333
+  > **_OBS3:_** O parâmetro `-w` sobe o servidor no modo watch (atualiza de acordo com as mudanças no server.json)
+  > **_OBS4:_** O parâmetro `-d 500` adiciona 500 milissegunos de delay entre uma requisição e outra. Isso evita que o usuário envie várias requisições em sequência.
+  > **_OBS5:_** Criar alias `"dev:server": "json-server server.json -p 3333 -w -d 500"` nos scripts do arquivo `package.json`
+
 
 
 ## Autoria e Créditos:
