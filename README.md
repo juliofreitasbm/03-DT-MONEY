@@ -61,8 +61,7 @@ ___
   > **_OBS1:_** Executar após criar um arquivo `server.json` na pasta raíz do projeto.
   > **_OBS2:_** O parâmetro `-p 3333` sobe o servidor na porta 3333
   > **_OBS3:_** O parâmetro `-w` sobe o servidor no modo watch (atualiza de acordo com as mudanças no server.json)
-  > **_OBS4:_** O parâmetro `-d 500` adiciona 500 milissegunos de delay entre uma requisição e outra. Isso evita que o usuário envie várias requisições em sequência.
-  > **_OBS5:_** Criar alias `"dev:server": "json-server server.json -p 3333 -w -d 500"` nos scripts do arquivo `package.json`
+  > **_OBS4:_** Criar alias `"dev:server": "json-server server.json -p 3333 -w -d 500"` nos scripts do arquivo `package.json`
 
 
 
