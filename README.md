@@ -40,6 +40,19 @@ ___
 
 + `npm i phosphor-react`: Biblioteca de ícones.
 
+### Recurso "Criando um modal acessível"
+
++ Aria: Regras de [Acessibilidade](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
++ AriaKit: Biblioteca de acessibilidade [Ariakit](https://github.com/ariakit/ariakit)
++ Headless UI: Biblioteca de acessibilidade [Headless UI](https://headlessui.com/)
++ Chakra UI: Biblioteca de componentes acessíveis [Chakra UI](https://v2.chakra-ui.com/getting-started)
++ Radix UI: Biblioteca de componentes acessíveis [Radix UI](https://www.radix-ui.com/)
+
++ `npm install @radix-ui/react-dialog`: Instala o modal (dialog) do radix.
+
+### Recurso "Criando radio button acessível"
+
++ `npm install @radix-ui/react-radio-group`: Instala o radio button do radix.
 
 
 ## Autoria e Créditos:
