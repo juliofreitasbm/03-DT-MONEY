@@ -56,7 +56,8 @@ ___
 
 ### Aula "Configurando JSON Server"
 
-+ `npm i json-server -D`: Permite criar uma API através de um arquivo JSON.
++ `npm i json-server@0.17.0 -D`: Permite criar uma API através de um arquivo JSON.
+  > **_OBS:_** Algumas funcionalidades utilizadas no projeto só funcionam nessa versão antiga do json-server.
 + `npx json-server server.json`: Sobe um servidor local através do arquivo server.json
   > **_OBS1:_** Executar após criar um arquivo `server.json` na pasta raíz do projeto.
   > **_OBS2:_** O parâmetro `-p 3333` sobe o servidor na porta 3333
@@ -67,6 +68,45 @@ ___
 
 + `npm i react-hook-form zod`: Biblioteca para lidar com formulários no React. Instala junto o zod para validação de dados e definição do schema do formulário.
 + `npm i @hookform/resolvers`: Biblioteca para utilizar o zodResolver.
+
+### Aula "Configurando Axios"
+
++ `npm i axios`: Biblioteca para requisições.
+
+### Aula "Corrigindo erros de linting"
+
++ `npm i eslint @rocketseat/eslint-config -D`: Instala o ESLint e a configuração da RocketSeat.
+
+### **Passo a Passo para Configuração do ESLint do Crea-GO:**
+
+1. Excluir a pasta `node_modules`.
+2. Dentro do arquivo `package.json`, excluir todas as `devDependencies` que tenham "eslint" no nome.
+3. Rodar `npm i`
+4. Rodar o comando: `npm install eslint@8.22.0 @typescript-eslint/eslint-plugin@5.45.0 @typescript-eslint/parser@5.45.0 eslint-plugin-prettier@4.2.1 prettier@2.7.1 --save-dev`
+5. Rodar o comando: `npm i -D eslint-config-creago`
+6. Exclua o arquivo `.eslint.config.js` e, se não existir, crie o arquivo ´.eslintrc.json´ e coloque no seu conteúdo:
+    >
+    ```
+    {
+      "extends": "eslint-config-creago/react"
+    }
+    ```
+7. Alterar as configurações de usuário no `settings.json`, acrescentando:
+    >
+    ```
+    {
+      "editor.codeActionsOnSave": {
+          "source.fixAll": "explicit",
+          "source.fixAll.eslint": "explicit"
+      },
+      "eslint.format.enable": true,
+      "editor.formatOnSave": true
+    }
+    ```
+8. Instalar a extensão ESLint da Microsoft no VSCode
+9. Rodar `npm run lint` para mostrar os erros.
+10. Testar se `Ctrl + S` num arquivo .ts ou .tsx aplica formatação do ESLint
+
 
 ## Autoria e Créditos:
 
