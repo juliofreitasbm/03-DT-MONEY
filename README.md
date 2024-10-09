@@ -63,7 +63,10 @@ ___
   > **_OBS3:_** O parâmetro `-w` sobe o servidor no modo watch (atualiza de acordo com as mudanças no server.json)
   > **_OBS4:_** Criar alias `"dev:server": "json-server server.json -p 3333 -w -d 500"` nos scripts do arquivo `package.json`
 
+### Aula "Aplicando React Hook Form"
 
++ `npm i react-hook-form zod`: Biblioteca para lidar com formulários no React. Instala junto o zod para validação de dados e definição do schema do formulário.
++ `npm i @hookform/resolvers`: Biblioteca para utilizar o zodResolver.
 
 ## Autoria e Créditos:
 
